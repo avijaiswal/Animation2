@@ -33,8 +33,9 @@ private ImageView imageview;
     }
 
     public void fade(View view){
+        ImageView image = (ImageView)findViewById(R.id.imageView);
         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
-        imageview.startAnimation(animation1);
+        image.startAnimation(animation1);
     }
 
     public void blink(View view){
