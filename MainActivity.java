@@ -40,8 +40,8 @@ private ImageView imageview;
 
     public void blink(View view){
         ImageView image = (ImageView)findViewById(R.id.imageView);
-        Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
-        image.startAnimation(animation1);
+        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
+        image.startAnimation(animation);
     }
 
     public void move(View view){
