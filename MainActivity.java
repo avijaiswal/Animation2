@@ -51,9 +51,9 @@ private ImageView imageview;
     }
 
     public void slide(View view){
-        ImageView image = (ImageView)findViewById(R.id.imageView);
+        ImageView imag = (ImageView)findViewById(R.id.imageView);
         Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide);
-        image.startAnimation(animation1);
+        imag.startAnimation(animation1);
     }
 
 }
